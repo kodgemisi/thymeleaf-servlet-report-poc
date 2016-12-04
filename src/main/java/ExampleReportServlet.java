@@ -34,6 +34,6 @@ public class ExampleReportServlet extends HttpServlet {
         variables.put("currentDate", new Date());
         variables.put("companies", Dao.listAllCompanies());
 
-        ThymeleafUtil.INSTANCE.process("report_1", request, response, variables);
+        ThymeleafUtil.INSTANCE.process("report_2", request, response, variables);
     }
 }
